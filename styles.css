@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: rgb(214, 122, 138);
+    height: 10vh;
+    width: 80vh;
+
+}
+.pink{
+    background-color: rgb(214, 122, 138);
+}
+.alta{
+    height: 10vh;
+}
+.ancha{
+    width: 70vh;;
+}
+
+#unico{
+   height: 60vh;
+    width: 180vh;
+}
+h1{
+color: rgb(203, 88, 107);
+font-size: 65px;
+font-weight: 900;
+display: inline-flex;
+position: relative;
+top: -10vh;
+left: 40vh;
+right: 40vh;
+}
+h2{
+color: rgb(241, 239, 240);
+}
+h3{
+    color: rgb(251, 251, 252);
+    font-size: 30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    
+}
+#formulario{
+    height:20vh;
+    width: 80vh;
+}
+#pie{
+    height: 20vh;
+    width: 226vh;
+    top: 100vh;
+    position: absolute;
+}
+h4{
+color: rgb(241, 239, 240);
+font-size: 40px;
+font-weight: 500;
+}
+p{
+    color: rgb(241, 239, 240);
+}
+#nosotrosfondo{
+    height: 45vh;
+    width: 80vh;
+    margin-top: 10vh;
+}
+h5{
+    color: rgb(203, 88, 107);
+    font-size: 40px;
+font-weight: 500;
+}
+#turismo1fondo{
+    height: 29vh;
+    width: 80vh;
+    margin-top: 7vh
+}
+button{
+    margin: 4px;
+    padding: 4px;
+    color: rgb(245, 125, 145);
+    position: relative;
+    left: 5vh;
+    top: -2vh;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 13vh;
+    right: 6vh;
+}
+.logo{
+    display: inline;
+    height: 140px;
+   position: relative;
+   left: 8vh;
+}
+ .nosotrosimg{
+    height: 45vh;
+    width: 70vh;
+    border-radius: 10px;
+    border: 3px solid palevioletred;
+}
+.carroimg{
+    height: 45vh;
+    width: 70vh;
+    border-radius: 10px;
+    border: 3px solid palevioletred;
+}
+.mapaimg{
+    height: 45vh;
+    width: 70vh;
+    border-radius: 10px;
+    border: 3px solid palevioletred;
+}
+.whatsappimg{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.instagramimg{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 15px;
+   
+    bottom: 2vh;
+   left: 199vh;
+}
+.facebookimg{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 15px;
+   
+    bottom: 2vh;
+    left: 190vh;
+}
+.tiktokimg{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 15px;
+    bottom: 2vh;
+    left: 180vh;
+}
+.flex{
+    height: 20vh;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.redes{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: end;
+    justify-content: space-around 5vh;
+   justify-self: right;
+}
