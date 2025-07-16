@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+header{
+.logo{
+    display: inline;
+    height: 140px;
+   position: relative;
+   left: 8vh;
+}
+h1{
+color: rgb(203, 88, 107);
+font-size: 65px;
+font-weight: 900;
+display: inline-flex;
+position: relative;
+top: -10vh;
+left: 40vh;
+right: 40vh;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 13vh;
+    right: 6vh;
+button{
+    margin: 4px;
+    padding: 4px;
+    color: rgb(245, 125, 145);
+    position: relative;
+    left: 5vh;
+    top: -2vh;
+    }
+}
+}
+footer{
+    .pie-inicio{
+          height: 20vh;
+    width: 226vh;
+    top: 100vh;
+    position: absolute;
+    background-color: rgb(214, 122, 138);
+    .textopie{
+        display: flex;
+    flex-flow: wrap;
+    justify-content: end;
+    justify-content: space-around 8vh;
+   justify-self: left;
+    }
+    .redes{
+        display: flex;
+    flex-flow: wrap;
+    justify-content: end;
+    justify-content: space-around 5vh;
+   justify-self: right;
+    }
+    }
+}
+}

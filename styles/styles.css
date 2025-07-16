@@ -1,462 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-main{
-    flex: 1;
-    min-height: 410px;
-}
-footer{
-background-color: rgb(214, 122, 138);
-padding: 10px;
-text-align: center;
-}
-div{
-    height: 10vh;
-    width: 80vh;
-}
-.whatsappimg{
-    height: 10vh;
-    width: 10vh;
-    border-radius: 15px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 999;
-}
-.pink{
-    background-color: rgb(214, 122, 138);
-    position: relative;
-}
-.alta{
-    height: 10vh;
-    position: relative;
-}
-.ancha{
-    width: 60vh;
-    position: relative;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
-#unico{
-   height: 60vh;
-    width: 180vh;
+body header .logo {
+  display: inline;
+  height: 140px;
+  position: relative;
+  left: 8vh;
 }
-h1{
-color: rgb(203, 88, 107);
-font-size: 65px;
-font-weight: 900;
-display: inline-flex;
-position: relative;
-top: -10vh;
-left: 40vh;
-right: 40vh;
+body header h1 {
+  color: rgb(203, 88, 107);
+  font-size: 65px;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  top: -10vh;
+  left: 40vh;
+  right: 40vh;
 }
-h2{
-color: rgb(241, 239, 240);
-}
-h3{
-    color: rgb(251, 251, 252);
-    font-size: 30px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    
-}
-#formulario{
-    height:20vh;
-    width: 80vh;
-}
-
-h4{
-color: rgb(241, 239, 240);
-font-size: 40px;
-font-weight: 500;
-}
-p{
-    color: rgb(241, 239, 240);
-}
-h5{
-    color: rgb(203, 88, 107);
-    font-size: 50px;
-font-weight: 500;
-margin-top: 5vh;
-margin-left: 50vh;
-}
-
-button{
-    margin: 4px;
-    padding: 4px;
-    position: relative;
-    left: 5vh;
-    top: -2vh;
-}
-.navbar{
-    display: flex;
-    position: absolute;
-    top: 13vh;
-    right: 6vh;
-}
-.logo{
-    display: inline;
-    height: 140px;
-   position: relative;
-   left: 8vh;
-}
- .nosotrosimg{
-    height: 45vh;
-    width: 70vh;
-    border-radius: 10px;
-    border: 3px solid palevioletred;
-}
-.carroimg{
-    height: 45vh;
-    width: 90vh;
-    border-radius: 10px;
-    border: 3px solid palevioletred;
-}
-.mapaimg{
-    height: 45vh;
-    width: 70vh;
-    border-radius: 10px;
-    border: 3px solid palevioletred;
-}
-.objetosasia{
-    height: 45vh;
-    width: 70vh;
-    border-radius: 10px;
-    border: 3px solid palevioletred;
-}
-
-.instagramimg{
-    height: 10vh;
-    width: 10vh;
-    border-radius: 15px;
-    bottom: 2vh;
-    left: 199vh;
-}
-.facebookimg{
-    height: 10vh;
-    width: 10vh;
-    border-radius: 15px;
-    bottom: 2vh;
-    left: 190vh;
-}
-.tiktokimg{
-    height: 10vh;
-    width: 10vh;
-    border-radius: 15px;
-    bottom: 2vh;
-    left: 180vh;
-}
-.flex{
-    height: 20vh;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-}
-
-.pie{
-  background-color: rgb(214, 122, 138);
-  color: white;
-  text-align: center;
-  padding: 20px;
-  width: 97%;
-  font-size: 18px;
-  margin-top: auto;
-  ;
-}
-.textopipe h3{
-    margin: 5px;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: center;
-}
-.redes{
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    margin-top: -10vh;
-}
-.contenedor{
-    display: grid;
-    grid-template-columns: repeat(3, 65vh);
-    gap: 20px;
-    padding: 20px;
-    max-width: 100%;
-    text-align: center;
-    justify-items: center;
-    margin: 10vh;
-    box-sizing: border-box;
-}
-.contenedor img{
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
-}
-.textoimginicio{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    margin-top: 10px;
-    padding: 10px 0;
-}
-.textoimginicio h2{
-    background-color:rgb(214, 122, 138);
-    color: aliceblue;
-    margin: 0;
-    padding:10px 20px;
-  max-width: 90%;
-  border-radius: 10px;
-    font-size: 1.1rem;
-    line-height: 1.3;
-    text-align: center;
-    box-sizing: border-box;
- }
- .nosotrosimgs{
-     display: grid;
-    grid-template-columns: repeat(2, 110vh);
-    gap: 10px;
-    padding: 15px;
-    text-align: center;
-    justify-items: center;
-    margin: 0;
- }
- .Pinknosotros p{
-    background-color: rgb(214, 122, 138);
-    color: aliceblue;
-    padding:10px 20px;
-    width: 150vh;
-    font-size: 1.1rem;
-    line-height: 1.3;
-    text-align: center;
-    box-sizing: border-box;
-    justify-content: center;
- }
-.pinkformulario{
-   background-color:rgb(214, 122, 138);
-    color: aliceblue;
-    margin-top: 10vh;
-    margin-left: 30%;
-    padding:10px 20px;
-    justify-content: center;
-    height: auto;
-}
-.pinkturismo{
-     background-color:rgb(214, 122, 138);
-    color: aliceblue;
-    margin-top: 10vh;
-    margin-left: 10%;
-    padding:10px 20px;
-    justify-content: center;
-    height: auto;
-    width: 80%;
-    border-radius: 10px;
-}
-.turismo1fondo{
-    background-color:rgb(214, 122, 138);
-    color: aliceblue;
-    margin-top: 0;
-    margin-left: 10%;
-    padding:10px 20px;
-    justify-content:space-between;
-    height: auto;
-    width: 85vh;
-    border-radius: 10px;
-}
-.turismoheader h1{
-    color: rgb(203, 88, 107);
-font-size: 65px;
-font-weight: 900;
-display: inline-flex;
-position: relative;
-top: -5vh;
-left:55vh;
-right: 40vh;
-}
-.contenedorturismo{
-   display: grid;
-    grid-template-columns: repeat(3, 65vh);
-    gap: 20px;
-    padding: 20px;
-    max-width: 100%;
-    text-align: center;
-    justify-items: center;
-    margin-top: 5vh;
-    margin-left: 30vh;
-    box-sizing: border-box; 
-}
-.contenedorturismo img{
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
-}
-@media(max-width: 1300px){
-    button{
-        display: flex;
-        flex-direction: row;
-    margin: 4px;
-    padding: 4px;
-    position: relative;
-    left: 5vh;
-    top: -2vh;
-}
-}
-@media(max-width: 1230px){
-.contenedor{
-    display: grid;
-    grid-template-columns: repeat(2, 65vh);
-    gap: 20px;
-    padding: 20px;
-    max-width: 100%;
-    text-align: center;
-    justify-items: center;
-    margin: 10vh;
-    box-sizing: border-box;
-}
-main{
-    flex: 1;
-    min-height: 500px;
-}
-}
-@media(max-width: 1050px){
-    h1{
-color: rgb(203, 88, 107);
-font-size: 65px;
-font-weight: 900;
-display: inline-flex;
-position: relative;
-top: 12vh;
-left: 0vh;
-right: 40vh;
-}
-    button{
-    display: flex;
-    flex-direction: row;
-    margin: 4px;
-    padding: 4px;
-    position: relative;
-    left: 5vh;
-    top: -9vh;
-}
-}
-@media(max-width: 840px){
-.contenedor{
-    display: grid;
-    grid-template-columns: repeat(1, 65vh);
-    gap: 20px;
-    padding: 20px;
-    max-width: 100%;
-    text-align: center;
-    justify-items: center;
-    margin: 10vh auto;
-    box-sizing: border-box;
-}
-main{
-    flex: 1;
-    min-height: 850px;
-}
-h1{
-color: rgb(203, 88, 107);
-font-size: 65px;
-font-weight: 900;
-display: inline-flex;
-position: absolute;
-top: 12vh;
-left: 0vh;
-right: 0vh;
-margin: 15vh 10vh;
-}
-}
-@media(max-width: 640px){
-    h1{
-color: rgb(203, 88, 107);
-font-size:50px;
-font-weight: 600;
-display: inline-flex;
-position: absolute;
-top: 12vh;
-left: 0vh;
-right: 0vh;
-margin: 15vh 13vh;
-}
-.pie{
-  background-color: rgb(214, 122, 138);
-  color: white;
-  text-align: center;
-  padding: 120px;
-  width: 97%;
-  font-size: 18px;
-  margin-top: auto;
+body header .navbar {
   display: flex;
-  flex-direction: row;
+  position: absolute;
+  top: 13vh;
+  right: 6vh;
 }
-.redes{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 13vh;
-    position: absolute;
-    margin-left: 8vh;
+body header .navbar button {
+  margin: 4px;
+  padding: 4px;
+  color: rgb(245, 125, 145);
+  position: relative;
+  left: 5vh;
+  top: -2vh;
 }
-.textopipe h3{
-    position: absolute;
-    margin: -10px -15px;
-       margin-top: -15px;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: center;
-    margin-left: -5vh;
+body footer .pie-inicio {
+  height: 20vh;
+  width: 226vh;
+  top: 100vh;
+  position: absolute;
+  background-color: rgb(214, 122, 138);
+}
+body footer .pie-inicio .textopie {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: end;
+  justify-content: space-around 8vh;
+  justify-self: left;
+}
+body footer .pie-inicio .redes {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: end;
+  justify-content: space-around 5vh;
+  justify-self: right;
+}
 
-}
-}
-@media(max-width: 560px){
-        h1{
-color: rgb(203, 88, 107);
-font-size:40px;
-font-weight: 600;
-display: inline-flex;
-position: absolute;
-top: 12vh;
-left: 0vh;
-right: 0vh;
-margin: 15vh 10vh;
-}
-.logo{
-    display: inline;
-    height: 100px;
-   position: relative;
-   left: 8vh;
-   margin-top: 5vh;
-}
-}
-.pinktienda p{
-    background-color: rgb(214, 122, 138);
-    margin: 5vh 56vh;
-    padding: 5px;
-    width: 110vh;
-    border-radius: 10px;
-}
-.imgtienda{
-    margin-top: 10vh;
-}
-.seleccionar{
-    margin-top: -15vh;
-    margin-left: 202vh;
-}
-.titulotienda{
-    color: rgb(203, 88, 107);
-font-size: 65px;
-font-weight: 900;
-display: inline-flex;
-position: relative;
-top: 8vh;
-left:30vh;
-right: 60vh;
-}
+/*# sourceMappingURL=styles.css.map */
