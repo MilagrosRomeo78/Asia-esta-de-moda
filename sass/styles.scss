@@ -35,18 +35,55 @@ button{
     left: 5vh;
     top: -2vh;
     }
+
 }
 }
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+.nosotrosimg{
+    height: 45vh;
+    width: 70vh;
+    border-radius: 10px;
+    border: 3px solid palevioletred;
+}
+.carroimg{
+    height: 45vh;
+    width: 70vh;
+    border-radius: 10px;
+    border: 3px solid palevioletred;
+}
+.mapaimg{
+    height: 45vh;
+    width: 70vh;
+    border-radius: 10px;
+    border: 3px solid palevioletred;
+}
+.textoimginicio{
+    background-color: palevioletred;
+    border-radius: 3px;
+    h2{
+        text-align: center;
+        padding-top: 7px;
+    color: white;
+    }
+}
+}
+ .whatsappimg{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    }
 footer{
-    .pie-inicio{
-          height: 20vh;
-    width: 226vh;
-    top: 100vh;
-    position: absolute;
-    background-color: rgb(214, 122, 138);
+        display: flex;
+        justify-content: end;
+        background-color: rgb(214, 122, 138);
     .textopie{
         display: flex;
-    flex-flow: wrap;
     justify-content: end;
     justify-content: space-around 8vh;
    justify-self: left;
@@ -57,7 +94,26 @@ footer{
     justify-content: end;
     justify-content: space-around 5vh;
    justify-self: right;
+  
+.instagramimg{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 15px;
+    bottom: 2vh;
+}
+.facebookimg{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 15px;
+    bottom: 2vh;
+    }
+.tiktokimg{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 15px;
+    bottom: 2vh;
+}
+    
     }
     }
-}
-}
+    }

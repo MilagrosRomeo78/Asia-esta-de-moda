@@ -35,26 +35,81 @@ body header .navbar button {
   left: 5vh;
   top: -2vh;
 }
-body footer .pie-inicio {
-  height: 20vh;
-  width: 226vh;
-  top: 100vh;
-  position: absolute;
+body .contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 5vh;
+}
+body .contenedor .nosotrosimg {
+  height: 45vh;
+  width: 70vh;
+  border-radius: 10px;
+  border: 3px solid palevioletred;
+}
+body .contenedor .carroimg {
+  height: 45vh;
+  width: 70vh;
+  border-radius: 10px;
+  border: 3px solid palevioletred;
+}
+body .contenedor .mapaimg {
+  height: 45vh;
+  width: 70vh;
+  border-radius: 10px;
+  border: 3px solid palevioletred;
+}
+body .contenedor .textoimginicio {
+  background-color: palevioletred;
+  border-radius: 3px;
+}
+body .contenedor .textoimginicio h2 {
+  text-align: center;
+  padding-top: 7px;
+  color: white;
+}
+body .whatsappimg {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 15px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+body footer {
+  display: flex;
+  justify-content: end;
   background-color: rgb(214, 122, 138);
 }
-body footer .pie-inicio .textopie {
+body footer .textopie {
   display: flex;
-  flex-flow: wrap;
   justify-content: end;
   justify-content: space-around 8vh;
   justify-self: left;
 }
-body footer .pie-inicio .redes {
+body footer .redes {
   display: flex;
   flex-flow: wrap;
   justify-content: end;
   justify-content: space-around 5vh;
   justify-self: right;
+}
+body footer .redes .instagramimg {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 15px;
+  bottom: 2vh;
+}
+body footer .redes .facebookimg {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 15px;
+  bottom: 2vh;
+}
+body footer .redes .tiktokimg {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 15px;
+  bottom: 2vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
