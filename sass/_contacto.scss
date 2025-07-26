@@ -1,0 +1,28 @@
+.titulocontacto{
+  color: rgb(203, 88, 107);
+  font-size: 65px;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  top: 8px;
+  margin-left: 140px;
+}
+.pinkformulario{
+    display:flow-root;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    padding: 1rem 0;
+    background-color: rgb(214, 122, 138);
+    border-radius: 5px;
+    form{
+      padding-left: 40%;
+      padding-right: 20%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: white;
+      font-size: 20px;
+    
+    }
+}

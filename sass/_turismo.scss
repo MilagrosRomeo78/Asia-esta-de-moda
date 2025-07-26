@@ -1,0 +1,76 @@
+.tituloturismo {
+  color: rgb(203, 88, 107);
+  font-size: 65px;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  top: 6px;
+  margin-left: 120px;
+}
+.pinkturismo {
+  display: flow-root;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  padding: 1rem 0;
+  background-color: rgb(214, 122, 138);
+  border-radius: 5px;
+  h5 {
+    padding-top: 10px;
+    padding-left: 30%;
+    font-size: 25px;
+    color: white;
+  }
+  p {
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: white;
+  }
+}
+.contenedorturismo {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  justify-content: center;
+  gap: 5vh;
+
+  .turismoimg {
+    height: 270px;
+    width: 400px;
+    border-radius: 10px;
+    border: 3px solid palevioletred;
+    object-fit: cover;
+  }
+  .turismofondo {
+    margin-top: 10px;
+    padding-left: 5%;
+    background-color: palevioletred;
+    border-radius: 3px;
+
+    .pchina {
+      padding-top: 65px;
+      padding-bottom: 65px;
+      font-size: 15px;
+      color: white;
+    }
+    .pjapon {
+      padding-top: 23px;
+      padding-bottom: 23px;
+      padding-right: 8px;
+      font-size: 15px;
+      color: white;
+    }
+    .pcorea {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 8px;
+      font-size: 15px;
+      color: white;
+    }
+  }
+}

@@ -5,111 +5,320 @@
   list-style: none;
 }
 
-body header .logo {
+body {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header .logo {
   display: inline;
   height: 140px;
   position: relative;
   left: 8vh;
 }
-body header h1 {
+header h1 {
   color: rgb(203, 88, 107);
   font-size: 65px;
   font-weight: 900;
   display: inline-flex;
   position: relative;
-  top: -10vh;
+  top: -8vh;
   left: 40vh;
   right: 40vh;
 }
-body header .navbar {
+header .navbar {
   display: flex;
   position: absolute;
   top: 13vh;
   right: 6vh;
 }
-body header .navbar button {
-  margin: 4px;
-  padding: 4px;
+header .navbar button {
+  margin: 8px;
+  padding: 8px;
   color: rgb(245, 125, 145);
   position: relative;
   left: 5vh;
-  top: -2vh;
+  top: -5vh;
 }
-body .contenedor {
+
+.contenedor {
   display: flex;
+  width: 90%;
+  margin: 0 auto;
   justify-content: center;
   gap: 5vh;
 }
-body .contenedor .nosotrosimg {
-  height: 45vh;
-  width: 70vh;
+.contenedor .imgMain {
+  height: 270px;
+  width: 100%;
   border-radius: 10px;
   border: 3px solid palevioletred;
+  object-fit: cover;
 }
-body .contenedor .carroimg {
-  height: 45vh;
-  width: 70vh;
-  border-radius: 10px;
-  border: 3px solid palevioletred;
-}
-body .contenedor .mapaimg {
-  height: 45vh;
-  width: 70vh;
-  border-radius: 10px;
-  border: 3px solid palevioletred;
-}
-body .contenedor .textoimginicio {
+.contenedor .textoimginicio {
   background-color: palevioletred;
   border-radius: 3px;
 }
-body .contenedor .textoimginicio h2 {
+.contenedor .textoimginicio h2 {
   text-align: center;
-  padding-top: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: white;
 }
-body .whatsappimg {
-  height: 10vh;
-  width: 10vh;
+
+.whatsappimg {
+  height: 80px;
+  width: 80px;
   border-radius: 15px;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 16px;
+  right: 9px;
 }
-body footer {
+
+footer {
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
   background-color: rgb(214, 122, 138);
 }
-body footer .textopie {
-  display: flex;
-  justify-content: end;
-  justify-content: space-around 8vh;
-  justify-self: left;
+footer h3 {
+  color: white;
+  font-size: 25px;
 }
-body footer .redes {
+footer .redes {
   display: flex;
   flex-flow: wrap;
-  justify-content: end;
-  justify-content: space-around 5vh;
-  justify-self: right;
+  justify-content: space-between;
+  gap: 1rem;
 }
-body footer .redes .instagramimg {
-  height: 10vh;
-  width: 10vh;
+footer .redes .redSocial {
+  height: 80px;
+  width: 80px;
   border-radius: 15px;
-  bottom: 2vh;
 }
-body footer .redes .facebookimg {
-  height: 10vh;
-  width: 10vh;
-  border-radius: 15px;
-  bottom: 2vh;
+
+.nosotrostitulo {
+  color: rgb(203, 88, 107);
+  font-size: 65px;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  top: 8px;
+  left: 120px;
 }
-body footer .redes .tiktokimg {
-  height: 10vh;
-  width: 10vh;
-  border-radius: 15px;
-  bottom: 2vh;
+
+.nosotrosimgs {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 5vh;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+.nosotrosimgs .nosotrosimg {
+  height: 340px;
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid palevioletred;
+  object-fit: cover;
+}
+
+.Pinknosotros {
+  display: flow-root;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 1rem 0;
+  background-color: rgb(214, 122, 138);
+  border-radius: 5px;
+}
+.Pinknosotros h4 {
+  color: white;
+  font-size: 35px;
+  padding-left: 500px;
+}
+.Pinknosotros p {
+  color: white;
+  font-size: 20px;
+  padding-top: 9px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.titulocontacto {
+  color: rgb(203, 88, 107);
+  font-size: 65px;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  top: 8px;
+  margin-left: 140px;
+}
+
+.pinkformulario {
+  display: flow-root;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  padding: 1rem 0;
+  background-color: rgb(214, 122, 138);
+  border-radius: 5px;
+}
+.pinkformulario form {
+  padding-left: 40%;
+  padding-right: 20%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.tituloturismo {
+  color: rgb(203, 88, 107);
+  font-size: 65px;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  top: 6px;
+  margin-left: 120px;
+}
+
+.pinkturismo {
+  display: flow-root;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  padding: 1rem 0;
+  background-color: rgb(214, 122, 138);
+  border-radius: 5px;
+}
+.pinkturismo h5 {
+  padding-top: 10px;
+  padding-left: 30%;
+  font-size: 25px;
+  color: white;
+}
+.pinkturismo p {
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+.contenedorturismo {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  justify-content: center;
+  gap: 5vh;
+}
+.contenedorturismo .turismoimg {
+  height: 270px;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid palevioletred;
+  object-fit: cover;
+}
+.contenedorturismo .turismofondo {
+  margin-top: 10px;
+  padding-left: 5%;
+  background-color: palevioletred;
+  border-radius: 3px;
+}
+.contenedorturismo .turismofondo .pchina {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 15px;
+  color: white;
+}
+.contenedorturismo .turismofondo .pjapon {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 8px;
+  font-size: 15px;
+  color: white;
+}
+.contenedorturismo .turismofondo .pcorea {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 8px;
+  font-size: 15px;
+  color: white;
+}
+
+.titulotienda {
+  color: rgb(203, 88, 107);
+  font-size: 65px;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  top: 6px;
+  margin-left: 120px;
+}
+
+.seleccionar {
+  margin-left: 508px;
+  padding: 6px;
+}
+
+.pinktienda {
+  display: flow-root;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  padding: 1rem 0;
+  background-color: rgb(214, 122, 138);
+  border-radius: 5px;
+}
+
+p {
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  color: white;
+}
+
+.contenedortienda {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  justify-content: center;
+  gap: 5vh;
+}
+.contenedortienda .imgtienda {
+  height: 270px;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid palevioletred;
+  object-fit: cover;
+}
+.contenedortienda .textoimginicio {
+  margin-top: 10px;
+  padding-left: 5%;
+  background-color: palevioletred;
+  border-radius: 3px;
+}
+.contenedortienda .textoimginicio h2 {
+  color: white;
+  padding: 5% 20%;
+}
+.contenedortienda .textoimginicio .h2indu {
+  color: white;
+  padding: 5% 30%;
 }
 
 /*# sourceMappingURL=styles.css.map */
