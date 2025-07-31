@@ -6,43 +6,39 @@
 }
 
 body {
-  height: 110vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+body .titulo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
 
+header .bg-body-tertiary {
+  background-color: transparent !important;
+}
 header .logo {
-  display: inline;
-  height: 140px;
-  position: relative;
-  left: 8vh;
+  width: 160px;
 }
 header h1 {
   color: rgb(203, 88, 107);
   font-size: 65px;
   font-weight: 900;
-  display: inline-flex;
-  position: relative;
-  top: -8vh;
-  left: 40vh;
-  right: 40vh;
 }
-header .navbar {
-  display: flex;
-  position: absolute;
-  top: 13vh;
-  right: 6vh;
-}
-header .navbar button {
-  margin: 8px;
-  padding: 8px;
-  color: rgb(245, 125, 145);
-  position: relative;
-  left: 5vh;
-  top: -5vh;
+header .navbar a {
+  color: #db7093;
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 
+@media (max-width: 1500px) {
+  .navbar {
+    display: flex;
+  }
+}
 .contenedor {
   display: flex;
   width: 90%;

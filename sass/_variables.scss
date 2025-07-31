@@ -6,8 +6,13 @@
 }
 
 body {
-  height: 110vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  .titulo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
   }
+}

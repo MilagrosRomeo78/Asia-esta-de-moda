@@ -1,35 +1,27 @@
 header {
-    .logo {
-      display: inline;
-      height: 140px;
-      position: relative;
-      left: 8vh;
-    }
+  .bg-body-tertiary {
+    background-color: transparent !important;
+  }
+  .logo {
+    width: 160px;
+  }
 
-    h1 {
-      color: rgb(203, 88, 107);
-      font-size: 65px;
-      font-weight: 900;
-      display: inline-flex;
-      position: relative;
-      top: -8vh;
-      left: 40vh;
-      right: 40vh;
-    }
+  h1 {
+    color: rgb(203, 88, 107);
+    font-size: 65px;
+    font-weight: 900;
+  }
 
-    .navbar {
-      display: flex;
-      position: absolute; 
-      top: 13vh;
-      right: 6vh;
-
-      button {
-        margin: 8px;
-        padding: 8px;
-        color: rgb(245, 125, 145);
-        position: relative;
-        left: 5vh;
-        top: -5vh;
-      }
+  .navbar {
+    a {
+      color: #db7093;
+      font-weight: 600;
+      font-size: 1.3rem;
     }
   }
+}
+@media (max-width: 1500px) {
+  .navbar {
+    display: flex;
+  }
+}
